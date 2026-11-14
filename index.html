@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ССЫЛКА НА ОБРАЗ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #e0e0e0;
+        }
+        .container {
+            background: rgba(30, 30, 50, 0.9);
+            border: 1px solid #3a3a5a;
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 720px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        h1::before {
+            content: "🪟";
+            font-size: 1.8rem;
+        }
+        .subtitle {
+            font-size: 0.95rem;
+            color: #9a9ab0;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+        .file-card {
+            background: #14142a;
+            border: 1px solid #2a2a4a;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .file-name {
+            font-family: 'Consolas', 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: #7ec8e3;
+            word-break: break-all;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .file-meta {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            color: #8a8aa8;
+        }
+        .file-meta span {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .btn-download {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 16px 24px;
+            background: linear-gradient(135deg, #4a6cf7, #6366f1);
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: all 0.25s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-download:hover {
+            background: linear-gradient(135deg, #5b7cff, #7c7ff5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(74, 108, 247, 0.35);
+        }
+        .btn-download:active {
+            transform: translateY(0);
+        }
+        .btn-icon {
+            font-size: 1.2rem;
+        }
+        .note {
+            margin-top: 20px;
+            font-size: 0.78rem;
+            color: #6a6a88;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .note code {
+            background: #14142a;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Consolas', monospace;
+            font-size: 0.75rem;
+            color: #9a9ab0;
+        }
+        .direct-link {
+            margin-top: 16px;
+            text-align: center;
+        }
+        .direct-link a {
+            color: #5b7cff;
+            font-size: 0.82rem;
+            word-break: break-all;
+            text-decoration: none;
+        }
+        .direct-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Windows 10 Black Super Slim</h1>
+        <p class="subtitle">
+            Windows 10 22H2 x64 · сборка 19045.1889 · Super Slim Edition
+        </p>
+
+        <div class="file-card">
+            <div class="file-name">
+                Windows_10_Black_19045.1889_22H2_x64_Super_Slim.iso
+            </div>
+            <div class="file-meta">
+                <span>💿 ISO-образ</span>
+                <span>🖥️ x64</span>
+                <span>📦 22H2</span>
+                <span>🔢 19045.1889</span>
+            </div>
+        </div>
+
+        <a
+            href="https://crustywindo.ws/collection/Windows%2010/Windows_10_Black_19045.1889_22H2_x64_Super_Slim.iso"
+            class="btn-download"
+            rel="noopener noreferrer"
+            download
+        >
+            <span class="btn-icon">⬇️</span>
+            Скачать ISO-образ
+        </a>
+
+        <p class="note">
+            Ссылка ведёт на внешний ресурс. Проверяйте файлы антивирусом перед использованием.<br>
+            Скачивание может потребовать подтверждения на стороне сайта.
+        </p>
+
+        <div class="direct-link">
+            <a
+                href="https://crustywindo.ws/collection/Windows%2010/Windows_10_Black_19045.1889_22H2_x64_Super_Slim.iso"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Открыть прямую ссылку в новой вкладке ↗
+            </a>
+        </div>
+    </div>
+</body>
+</html>
